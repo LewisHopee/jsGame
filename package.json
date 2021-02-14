@@ -1,0 +1,26 @@
+{
+  "name": "jsgame",
+  "version": "1.0.0",
+  "description": "Bank application done using Javascript during Jonas Schmedtmann course.",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^2.0.0-nightly.592"
+  },
+  "devDependencies": {
+    "@parcel/optimizer-cssnano": "^2.0.0-nightly.594",
+    "@parcel/optimizer-htmlnano": "^2.0.0-nightly.594",
+    "@parcel/packager-css": "^2.0.0-nightly.594",
+    "@parcel/packager-html": "^2.0.0-nightly.594",
+    "@parcel/transformer-css": "^2.0.0-nightly.594",
+    "@parcel/transformer-html": "^2.0.0-nightly.594",
+    "@parcel/transformer-postcss": "^2.0.0-nightly.594",
+    "@parcel/transformer-posthtml": "^2.0.0-nightly.594",
+    "postcss": "^8.2.6"
+  }
+}
